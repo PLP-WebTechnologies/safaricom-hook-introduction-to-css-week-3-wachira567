@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics Example</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        /* Internal CSS */
+        h1, h2, h3 {
+            font-size: 2em; /* Element Selector */
+        }
+
+        .section {
+            background-color: #f0f8ff; /* Class Selector */
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        #uniqueElement {
+            border: 2px solid #007bff; /* ID Selector */
+            padding: 10px;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+            text-align: justify; /* Text Alignment */
+            margin: 10px 0;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body style="background-color: #e9ecef;"> <!-- Inline CSS -->
+
+    <h1>CSS Basics</h1>
+    <div class="section">
+        <h2>Section Title</h2>
+        <p>This is a paragraph in a section with a light background color.</p>
+    </div>
+
+    <div id="uniqueElement">
+        <h3>Unique Element</h3>
+        <p>This element has a unique border applied to it.</p>
+    </div>
+
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a simple card component with padding and margin.</p>
+    </div>
+
+    <a href="#" class="link">Hover over this link</a>
+
+</body>
+</html>
